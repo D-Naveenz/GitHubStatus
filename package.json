@@ -12,6 +12,7 @@
     "axios": "^1.7.3",
     "dotenv": "^16.4.5",
     "emoji-name-map": "^1.2.9",
+    "github-username-regex": "^1.0.0",
     "word-wrap": "^1.2.5"
   },
   "main": "src/{index.js,functions/*.js}",
