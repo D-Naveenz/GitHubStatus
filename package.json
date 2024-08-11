@@ -2,13 +2,23 @@
   "name": "githubstatus",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "scripts": {
     "start": "func start",
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "@azure/functions": "^4.0.0"
+    "@azure/functions": "^4.0.0",
+    "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
+    "emoji-name-map": "^1.2.9",
+    "github-username-regex": "^1.0.0",
+    "word-wrap": "^1.2.5"
   },
-  "devDependencies": {},
-  "main": "src/{index.js,functions/*.js}"
+  "main": "src/{index.js,functions/*.js}",
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "eslint": "^9.9.0",
+    "globals": "^15.9.0"
+  }
 }
